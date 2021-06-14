@@ -1,17 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDom from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ReactDom.render(
+  <>
+  <div className="main-container">
+  <div className="rect flex-center">
+                    <div className="circ1 flex-center" id="circ1">
+                        <div className="circ2" id="circ2" style={{border: '2px solid black'}} >
+                        <div className="menu" id="menu" >Menu</div>
+                        <div className="forward" ><img src="https://icons-for-free.com/iconfiles/png/512/forward+icon-1320166878041096316.png"/></div>
+                        <div className="pause"><img src="https://image.shutterstock.com/image-vector/pause-button-media-menu-icon-260nw-1528573811.jpg"/></div>
+                        <div className="backward" ><img src="https://cdn0.iconfinder.com/data/icons/player-controls/512/backward-512.png"/></div>
+                        </div>
+                    </div>
+                </div>
+  </div>
+  </>,
   document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+)

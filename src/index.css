@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Styling the Ipod */
+
+.main-container {
+  background-color: #e8d2b0;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* main circle in ipod */
+
+.circ1 {
+  background-color: #996521;
+  height: 7rem;
+  width: 7rem;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Inner circle */
+
+.circ2 {
+  background-color: #624a8f;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+/* Menu button  */
+
+.menu {
+  height: 1rem;
+  width: 3rem;
+  position: relative;
+  color: #fbfafb;
+  top: -1.5rem;
+  left: 0rem;
+  background-color: transparent;
+  cursor: default;
+}
+
+/* Forward Button */
+
+.forward {
+  height: 1rem;
+  width: 1.5rem;
+  color: #fbfafb;
+  position: relative;
+  top: -0.25rem;
+  left: 3.3rem;
+}
+.forward img {
+  height: 1rem;
+  width: 1rem;
+}
+
+/* Pause Button */
+
+.pause {
+  position: relative;
+  top: 1.3rem;
+}
+.pause img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* Backward Button */
+
+.backward {
+  position: relative;
+  top: -2.75rem;
+  left: -1.8rem;
+  height: 1rem;
+  width: 1.5rem;
+  /* transform: rotate(180deg); */
+}
+.backward img {
+  height: 1rem;
+  width: 1rem;
+}
